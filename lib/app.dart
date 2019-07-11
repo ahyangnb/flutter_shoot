@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_shoot/util/tools.dart';
 
 class MyApp extends StatelessWidget {
+  final random = new Random();
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -10,10 +12,9 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('1'),
+          elevation: 0,
         ),
-        body: Center(
-          child: Text('1'),
-        ),
+        body: Text('1')
       ),
     );
   }
