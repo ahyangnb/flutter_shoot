@@ -1,2 +1,6 @@
 # flutter_shoot
-this is ahyang can study flutter project.
+this is ahYang can study flutter project.
+
+#title
+
+这是中文介绍
