@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_shoot/pages/home_page.dart';
-import 'package:flutter_shoot/pages/category_page.dart';
-import 'package:flutter_shoot/pages/search_page.dart';
-import 'package:flutter_shoot/pages/mine_page.dart';
+import 'package:flutter_shoot/pages/home/home_page.dart';
+import 'package:flutter_shoot/pages/category/category_page.dart';
+import 'package:flutter_shoot/pages/search/search_page.dart';
+import 'package:flutter_shoot/pages/mine/mine_page.dart';
 
 class MyApp extends StatefulWidget {
   MyAppState createState() => MyAppState();
