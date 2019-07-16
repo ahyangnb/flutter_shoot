@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_shoot/pages/orther/photo_view_page.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -13,19 +12,6 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Text('HomePage'),
         centerTitle: true,
-      ),
-      body: Center(
-        child: InkWell(
-          child: Text('test'),
-          onTap: () => Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) {
-                return PhotoViewPage();
-              },
-            ),
-          ),
-        ),
       ),
     );
   }
