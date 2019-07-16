@@ -12,6 +12,7 @@ dependencies:
 
   cupertino_icons: ^0.1.2
   photo_view: ^0.4.1
+  sqflite: any
 
 dev_dependencies:
   flutter_test:
